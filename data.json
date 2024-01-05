@@ -1,0 +1,148 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello",
+        "Good day",
+        "Sup",
+        "Ohayo!",
+        "Whats poppin?",
+        "yo",
+        "heyy"
+      ],
+      "responses": [
+        "Greetings! Welcome to our online store.",
+        "Hello there! Thank you for dropping by.",
+        "Hi, it's great to have you here. How may I assist you today?",
+        "Hey! How can I make your shopping experience amazing?",
+        "Hello! What can I do for you on this fine day?",
+        "Ohayo! Ready to explore our fantastic collection?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","tata","byee","bie"],
+      "responses": [
+        "Goodbye! We appreciate your visit. See you again soon.",
+        "See you later! If you have any more questions, feel free to ask.",
+        "Farewell! Have a wonderful day ahead.",
+        "Until next time! Thank you for choosing us.",
+        "Goodbye! Remember, great style is just a click away."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "You're welcome! If you need anything else, just let me know.",
+        "Thank you! It's my pleasure to assist you.",
+        "Thanks a lot! We're delighted to be of help.",
+        "Glad I could assist! If you have more questions, feel free to ask."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "Our store is a treasure trove of fashion! Explore a diverse collection of clothes, bags, shoes, and other trendy apparel from top-notch brands.",
+        "Get ready to be dazzled! Our inventory includes a wide variety of clothes, bags, shoes, and beauty products – all curated from leading brands. Dive into the fashion feast in our store section!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you take debit cards?",
+        "Do you accept Visa?",
+        "Can I pay with Paypal?",
+        "Is Cash on delivery accepted?"
+      ],
+      "responses": [
+        "Absolutely! We accept major credit cards like VISA, Mastercard, and even Paypal for seamless transactions.",
+        "Yes, we do! You can use your VISA, Mastercard, and Paypal for a hassle-free shopping experience.",
+        "Feel free to pay with ease using your credit cards: VISA and Mastercard. Additionally, we accept payments via Paypal. Cash on Delivery is also an option for your convenience."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "shipping time?",
+        "delivery time?"
+
+      ],
+      "responses": [
+        "Your excitement will be met with swift delivery! Typically, our delivery time is 2-4 days, ensuring your purchase reaches you promptly.",
+        "Rest assured, your order will be on its way within 2-4 days. We understand the anticipation of receiving your latest fashion finds!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Sure, here's a little humor for you: Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "Laughter is the best accessory! How about this one: What did the buffalo say when his son left for college? Bison.",
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I only know 25 letters of the alphabet. I don't know y.",
+        "What do you call fake spaghetti? An impasta!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "How do you organize a space party? You planet!",
+        "Why did the math book look sad? Because it had too many problems.",
+        "What's a vampire's favorite fruit? A blood orange!",
+        "I used to play piano by ear, but now I use my hands and fingers."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Are there any discounts available?",
+        "Do you have ongoing sales?",
+        "Tell me about your promotions."
+      ],
+      "responses": [
+        "Absolutely! Keep an eye out for our exclusive discounts and promotions. We frequently offer special deals to make your shopping experience even more delightful.",
+        "Yes, indeed! Explore our ongoing sales and promotions section to discover fantastic deals on your favorite fashion items."
+      ]
+    },
+    {
+      "tag": "size_guide",
+      "patterns": [
+        "Can you help me with sizing?",
+        "How do I know my size?",
+        "Is there a size guide?"
+      ],
+      "responses": [
+        "Certainly! Check out our comprehensive size guide in the product description to ensure a perfect fit. If you have specific questions, feel free to ask!",
+        "Finding the right size is crucial! Consult our size guide provided in the product details to make sure your chosen items fit you perfectly."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return an item?",
+        "Tell me about your refund process."
+      ],
+      "responses": [
+        "We want you to be satisfied! Explore our transparent return policy on the website for detailed information on returns and refunds.",
+        "Absolutely, you can return items! Our return policy is designed to make the process easy and convenient for you. Check our website for specific details."
+      ]
+    }
+  ]
+}
